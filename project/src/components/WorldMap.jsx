@@ -5,8 +5,8 @@ function WorldMap() {
   return (
     <div className="h-screen w-full">
       <MapContainer 
-        center={[20, 0]} 
-        zoom={2} 
+        center={[42.8711, -85.8644]} 
+        zoom={15} 
         className="h-full w-full"
         zoomControl={true}
         scrollWheelZoom={true}
